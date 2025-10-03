@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">      
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: mulish;
+        }
+
+        body{
+            background-color: rgb(56, 48, 48);
+        }
+        #container{
+            background-color: rgb(232, 222, 224);
+            height: 1680px;
+            width: 600px;
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        img {
+            height: 310px;
+            border-radius: 20px;
+        }
+
+        figure{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #container>#heading{
+            margin-top: 20px;
+        }
+        
+        #container>#description{
+            margin-top: 10px;
+        }
+
+        #container>#pt{
+            height: 170px;
+            width:550px;
+            border-radius: 20px;
+            background-color: rgb(231, 209, 213);
+            margin-top: 25px;
+            padding: 20px;
+        }
+
+        #container>#pt>#pt_list{
+            padding-left: 30px;
+            margin-top: 15px;
+        }
+
+        #container>#pt>#pt_list>li{
+            padding-top: 10px;
+        }
+
+        #container>#ing{
+            margin-top: 20px;
+            color: rgb(134, 30, 30);
+        }
+
+        #container>#ing_div{
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+
+        #container>#ing_div>ul>li{
+            padding-top: 10px;
+        }
+
+        #container>#inst{
+            color: rgb(134, 30, 30);
+            margin-top: 20px;
+        }
+
+        #container>#ins_list>ol>li{
+            margin-top: 20px;
+            font-size: 15px;
+            margin-left: 20px;
+        }
+
+        #container>#nut{
+            margin-top: 20px;
+            color: rgb(134, 30, 30);
+        }
+
+        #container>#nut_dis{
+            margin-top: 20px;
+        }
+
+        #container>table{
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        td{
+            
+            padding: 12px;
+            font-size: 16px;
+            border-top: 1px solid #797979;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div id="container">
+
+        <figure>
+            <img src="OMELETTE_IMG.webp" />
+        </figure>
+
+        <h1 id="heading">Simple Omelette Recipe</h1>
+        
+        <p id="description">An esay and quick dish, perfect for any meal. This classic omelette combines beaten eggs coocked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+
+        <div id="pt">
+            <strong style="color: rgb(134, 30, 30);">Preparation Time</strong>
+
+            <ul id="pt_list">
+                <li><strong>Total: </strong> Approximately 10 minutes</li>
+                <li><strong>Preparation: </strong>5 minutes</li>
+                <li><strong>Cooking: </strong>5 minutes</li>
+            </ul>
+        </div>
+
+        <h2 id="ing">Ingredients</h2>
+
+        <div id="ing_div">
+            <ul>
+                <li>2-3 large eggs</li>
+                <li>Salt, to taste</li>
+                <li>Pepper, to taste</li>
+                <li>1 tablespoon of butter or oil</li>
+                <li>Optional fillings: cheese vegetables, coocked meats, herbs</li>
+            </ul>
+        </div>
+
+        <br/><hr/>
+
+        <h1 id="inst">Instructions</h1>
+
+        <div id="ins_list">
+            <ol>
+                <li><strong>Beat the eggs: </strong>In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+                <li><strong>Heat the pan: </strong>Place a non-stick frying pan over medium heat and add butter or oil.</li>
+                <li><strong>Cook the omelette: </strong>Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>
+                <li><strong>Add filling (optional): </strong>When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
+                <li><strong>Fold and serve: </strong>As the omelette continue to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute,  then slide it onto a plate.</li>
+                <li><strong>Enjoy: </strong>Serve hot, with additionaly salt and papper if needed.</li>
+            </ol>
+        </div>
+
+        <h1 id="nut">Nutrition</h1>
+        <p id="nut_dis">The table below show nutritional values per serving without the additional fillings.</p>
+
+        <table>
+            <tr>
+                <td>Calories</td>
+                <td><strong>277kcl</strong></td>
+            </tr>
+            <tr>
+                <td>Carbs</td>
+                <td><strong>0g</strong></td>
+            </tr>
+            <tr>
+                <td>Protein</td>
+                <td><strong>20g</strong></td>
+            </tr>
+            <tr>
+                <td>Fat</td>
+                <td><strong>22g</strong></td>
+            </tr>
+        </table>
+        
+    </div>
+
+</body>
+</html>
