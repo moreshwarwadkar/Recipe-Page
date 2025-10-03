@@ -12,6 +12,6 @@ This project is a clean and responsive recipe webpage built with HTML and CSS. I
   <li>Beginner-friendly HTML & CSS project</li>
 </ul>
 
-![UI Screenshot](01_SC.png)
-![UI Screenshot](02_SC.png)
+![UI Screenshot](01_SC.png) <br/>
+![UI Screenshot](02_SC.png) <br/>
 ![UI Screenshot](03_SC.png)
